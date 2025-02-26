@@ -5,6 +5,7 @@
 import math
 
 # Variable Types
+
 integer = 10  
 float = 10.5  
 double = 10.5555555555
@@ -13,6 +14,9 @@ boolean = True
 string = "Hello"  
 
 # Print the values with their explanations
+
+print("")
+print("Variable Type Examples")
 print("This is an example of a Integer Variable: " + str(integer))
 print("This is an example of a Float Variable: " + str(float))
 print("This is an example of a Double Variable: " + str(double))
@@ -34,6 +38,7 @@ rem_2 = 24 % 5
 rem_3 = 24 % 7
 
 # Printing the results
+
 print("")
 print("Math Operations Stored in Variables:")
 print("Addition (2 + 23): " + str(add))
@@ -60,3 +65,27 @@ delta = b * b - 4 * a * c
 
 print("Discriminant:", delta)
 
+# 3D Volume Calculator
+
+# Cube Calculator
+print()
+side = int(input("Enter the side length of the cube: "))
+cube_volume = side * side * side
+print("Volume of the cube:", cube_volume)
+
+# Sphere Calculator
+radius = int(input("Enter the radius of the sphere: "))
+sphere_volume = (4/3) * 3.14159 * radius * radius * radius
+print("Volume of the sphere:", sphere_volume)
+
+# Cone Calculator
+radius = int(input("Enter the radius of the cone: "))
+height = int(input("Enter the height of the cone: "))
+cone_volume = (1/3) * 3.14159 * radius * radius * height
+print("Volume of the cone:", cone_volume)
+
+# Cylinder Calculator
+radius = int(input("Enter the radius of the cylinder: "))
+height = int(input("Enter the height of the cylinder: "))
+cylinder_volume = 3.14159 * radius * radius * height
+print("Volume of the cylinder:", cylinder_volume)
