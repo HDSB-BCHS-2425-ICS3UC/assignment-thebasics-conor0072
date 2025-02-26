@@ -46,3 +46,17 @@ print("Exponentiation (2 ** 4): " + str(power))
 print("Modulus 1 (24 % 6): " + str(rem_1))
 print("Modulus 2 (24 % 5): " + str(rem_2))
 print("Modulus 3 (24 % 7): " + str(rem_3))
+
+# Discriminant Calculator 
+
+print("")
+print("Discriminant Calculator")
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+c = int(input("Enter c: "))
+
+delta = b * b - 4 * a * c
+
+print("Discriminant:", delta)
+
