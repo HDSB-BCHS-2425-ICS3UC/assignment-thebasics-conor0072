@@ -66,14 +66,14 @@ print("\nDiscriminant:", delta)
 
 # Cube Calculator
 
-side = int(input("\nEnter the side length of the cube: "))
+side = float(input("\nEnter the side length of the cube: "))
 cube_volume = side ** 3
-print(float("Volume of the cube:", cube_volume))
+print("Volume of the cube:", cube_volume)
 
 # Sphere Calculator
-radius = int(input("Enter the radius of the sphere: "))
+radius = float(input("Enter the radius of the sphere: "))
 sphere_volume = (4/3) * math.pi * radius ** 3
-print(float("Volume of the sphere:", sphere_volume))
+print("Volume of the sphere:", sphere_volume)
 
 # Cone Calculator
 radius = int(float(input("Enter the radius of the cone: ")))
