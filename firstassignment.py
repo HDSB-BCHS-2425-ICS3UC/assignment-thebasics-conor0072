@@ -28,7 +28,7 @@ print("This is an example of a String Variable:", string)
 add = 2 + 23
 difference = 2 - 23
 multiply = 3 * 2 * 4
-divide = 24 / 8 
+divide = 24 // 8 
 divide_float = 24.0 / 7  
 square = math.sqrt(25)
 power = 2 ** 4
