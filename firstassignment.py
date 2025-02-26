@@ -8,7 +8,7 @@ import math
 
 integer = 10  
 float_ = 10.5  
-double = 10.5555555555
+precise_float = 10.5555555555
 char = 'A'
 boolean = True  
 string = "Hello"  
@@ -18,7 +18,7 @@ string = "Hello"
 print("\nVariable Type Examples")
 print("\nThis is an example of a Integer Variable:", integer)
 print("This is an example of a Float Variable:", float_)
-print("This is an example of a Double Variable:", double)
+print("This is an example of a Precise Float Variable:", precise_float)
 print("This is an example of a Char Variable:", char)
 print("This is an example of a Boolean Variable:", boolean)
 print("This is an example of a String Variable:", string)
@@ -28,7 +28,7 @@ print("This is an example of a String Variable:", string)
 add = 2 + 23
 difference = 2 - 23
 multiply = 3 * 2 * 4
-divide = 24 / 8
+divide = 24 / 8 
 divide_float = 24.0 / 7  
 square = math.sqrt(25)
 power = 2 ** 4
@@ -71,18 +71,18 @@ cube_volume = side ** 3
 print("Volume of the cube:", cube_volume)
 
 # Sphere Calculator
-radius = float(input("Enter the radius of the sphere: "))
-sphere_volume = (4/3) * math.pi * radius ** 3
+sphere_radius = float(input("Enter the radius of the sphere: "))
+sphere_volume = (4/3) * math.pi * sphere_radius ** 3
 print("Volume of the sphere:", sphere_volume)
 
 # Cone Calculator
-radius = float(input("Enter the radius of the cone: "))
-height = float(input("Enter the height of the cone: "))
-cone_volume = (1/3) * math.pi * radius ** 2 * height
+cone_radius = float(input("Enter the radius of the cone: "))
+cone_height = float(input("Enter the height of the cone: "))
+cone_volume = (1/3) * math.pi * cone_radius ** 2 * cone_height
 print("Volume of the cone:", cone_volume)
 
 # Cylinder Calculator
-radius = float(input("Enter the radius of the cylinder: "))
-height = float(input("Enter the height of the cylinder: "))
-cylinder_volume = math.pi * radius ** 2 * height
+cylinder_radius = float(input("Enter the radius of the cylinder: "))
+cylinder_height = float(input("Enter the height of the cylinder: "))
+cylinder_volume = math.pi * cylinder_radius ** 2 * cylinder_height
 print("Volume of the cylinder:", cylinder_volume)
