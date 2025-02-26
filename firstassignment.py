@@ -7,7 +7,7 @@ import math
 # Variable Types
 
 integer = 10  
-float = 10.5  
+float_ = 10.5  
 double = 10.5555555555
 char = 'A'
 boolean = True  
@@ -17,7 +17,7 @@ string = "Hello"
 
 print("\nVariable Type Examples")
 print("\nThis is an example of a Integer Variable:", str(integer))
-print("This is an example of a Float Variable:", str(float))
+print("This is an example of a Float Variable:", str(float_))
 print("This is an example of a Double Variable:", str(double))
 print("This is an example of a Char Variable:", char)
 print("This is an example of a Boolean Variable:", str(boolean))
@@ -54,11 +54,11 @@ print("Modulus 3 (24 % 7):", str(rem_3))
 
 print("\nDiscriminant Calculator")
 
-a = int(input("Enter a: "))
-b = int(input("Enter b: "))
-c = int(input("Enter c: "))
+a = float(input("Enter a: "))
+b = float(input("Enter b: "))
+c = float(input("Enter c: "))
 
-delta = b * b - 4 * a * c
+delta = b ** 2 - 4 * a * c
 
 print("\nDiscriminant:", delta)
 
@@ -68,21 +68,21 @@ print("\nDiscriminant:", delta)
 
 side = int(input("\nEnter the side length of the cube: "))
 cube_volume = side ** 3
-print("Volume of the cube:", cube_volume)
+print(float("Volume of the cube:", cube_volume))
 
 # Sphere Calculator
 radius = int(input("Enter the radius of the sphere: "))
-sphere_volume = (4/3) * 3.14159 * radius ** 3
-print("Volume of the sphere:", sphere_volume)
+sphere_volume = (4/3) * math.pi * radius ** 3
+print(float("Volume of the sphere:", sphere_volume))
 
 # Cone Calculator
-radius = int(input("Enter the radius of the cone: "))
-height = int(input("Enter the height of the cone: "))
-cone_volume = (1/3) * 3.14159 * radius ** 2 * height
+radius = int(float(input("Enter the radius of the cone: ")))
+height = int(float(input("Enter the height of the cone: ")))
+cone_volume = (1/3) * math.pi * radius ** 2 * height
 print("Volume of the cone:", cone_volume)
 
 # Cylinder Calculator
-radius = int(input("Enter the radius of the cylinder: "))
-height = int(input("Enter the height of the cylinder: "))
-cylinder_volume = 3.14159 * radius ** 2 * height
+radius = int(float(input("Enter the radius of the cylinder: ")))
+height = int(float(input("Enter the height of the cylinder: ")))
+cylinder_volume = math.pi * radius ** 2 * height
 print("Volume of the cylinder:", cylinder_volume)
