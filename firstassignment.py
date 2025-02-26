@@ -16,11 +16,11 @@ string = "Hello"
 # Print the values with their explanations
 
 print("\nVariable Type Examples")
-print("\nThis is an example of a Integer Variable:", str(integer))
-print("This is an example of a Float Variable:", str(float_))
-print("This is an example of a Double Variable:", str(double))
+print("\nThis is an example of a Integer Variable:", integer)
+print("This is an example of a Float Variable:", float_)
+print("This is an example of a Double Variable:", double)
 print("This is an example of a Char Variable:", char)
-print("This is an example of a Boolean Variable:", str(boolean))
+print("This is an example of a Boolean Variable:", boolean)
 print("This is an example of a String Variable:", string)
 
 # Math Operations
@@ -39,16 +39,16 @@ rem_3 = 24 % 7
 # Printing the results
 
 print("\nMath Operations Stored in Variables:")
-print("\nAddition (2 + 23):", str(add))
-print("Subtraction (2 - 23):", str(difference))
-print("Product (3 * 2 * 4):", str(multiply))
-print("Quotient Integer (24 / 8):", str(divide))
-print("Quotient Float (24.0 / 7):", str(divide_float))
-print("Square Root (math.sqrt(25)):", str(square))
-print("Exponentiation (2 ** 4):", str(power))
-print("Modulus 1 (24 % 6):", str(rem_1))
-print("Modulus 2 (24 % 5):", str(rem_2))
-print("Modulus 3 (24 % 7):", str(rem_3))
+print("\nAddition (2 + 23):", add)
+print("Subtraction (2 - 23):", difference)
+print("Product (3 * 2 * 4):", multiply)
+print("Quotient Integer (24 / 8):", divide)
+print("Quotient Float (24.0 / 7):", divide_float)
+print("Square Root (math.sqrt(25)):", square)
+print("Exponentiation (2 ** 4):", power)
+print("Modulus 1 (24 % 6):", rem_1)
+print("Modulus 2 (24 % 5):", rem_2)
+print("Modulus 3 (24 % 7):", rem_3)
 
 # Discriminant Calculator 
 
@@ -76,13 +76,13 @@ sphere_volume = (4/3) * math.pi * radius ** 3
 print("Volume of the sphere:", sphere_volume)
 
 # Cone Calculator
-radius = int(float(input("Enter the radius of the cone: ")))
-height = int(float(input("Enter the height of the cone: ")))
+radius = float(input("Enter the radius of the cone: "))
+height = float(input("Enter the height of the cone: "))
 cone_volume = (1/3) * math.pi * radius ** 2 * height
 print("Volume of the cone:", cone_volume)
 
 # Cylinder Calculator
-radius = int(float(input("Enter the radius of the cylinder: ")))
-height = int(float(input("Enter the height of the cylinder: ")))
+radius = float(input("Enter the radius of the cylinder: "))
+height = float(input("Enter the height of the cylinder: "))
 cylinder_volume = math.pi * radius ** 2 * height
 print("Volume of the cylinder:", cylinder_volume)
