@@ -8,7 +8,7 @@ import math
 
 integer = 10  
 float_ = 10.5  
-precise_float = 10.5555555555
+precise_float = 10.5555555555 # This is also a double 
 char = 'A'
 boolean = True  
 string = "Hello"  
